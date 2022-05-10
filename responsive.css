@@ -1,0 +1,46 @@
+@media screen and (max-width: 1024px) {
+    header {
+        width: 100%;
+        font-size: 13px;
+    }
+
+    header nav {
+        justify-content: space-between;
+    }
+    
+    .nav-link{
+        font-size: 15px;
+        padding-right: 10px;
+    }
+
+    .cart {
+        flex: none;
+        margin-left: 10px;
+        justify-content: center;
+    }
+    
+    .presentation {
+        flex-direction: column;
+    }
+
+    .introductin {
+        margin-top: 5vh;
+        text-align: center;
+    }
+
+    .intro-text h1 {
+        font-size: 26px;
+        text-align: center;
+    }
+
+    .intro-text p {
+        font-size: 15px;
+    }
+
+    .cta {
+        padding: 10px 0px 0px 0px;
+        justify-content: center;
+    }
+
+
+}
